@@ -2,37 +2,442 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  src: url('./Fonts/SST\ Arabic\ Roman.ttf');
+  font-family: SST;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Top Banner Part  */
+
+.updiv {
+
+  height: 26px;
+  background: #FDC180 0% 0% no-repeat padding-box;
+
+  z-index: 1;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bgimg {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 768px;
+  background: transparent url('./Images/Rectangle\ 5347.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.bgimg2 {
+  top: 0px;
+  left: 0px;
+  width: 100% px;
+  height: 762px;
+  background: transparent url('./Images/Path\ 9.svg') 0% 0% no-repeat padding-box;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  margin-top: 95px;
+}
+
+.text1 {
+
+  margin-top: 57px;
+
+  color: #FDC180;
+  opacity: 1;
+  text-align: center !important;
+  font-family: SST;
+}
+
+.button1 {
+  top: 596px;
+  left: 556px;
+  width: 255px;
+  height: 64px;
+  background: #FDC180 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 1;
+  margin-top: 55px;
+  font-family: SST;
+}
+
+.button2 {
+  top: 622px;
+  margin-left: -1573px;
+  width: 379px;
+  height: 75px;
+  background: #F7C180 0% 0% no-repeat padding-box;
+  border-radius: 38px;
+  opacity: 1;
+  font-family: SST;
+}
+
+.eclips {
+
+
+  border-radius: 100%;
+  width: 1002px;
+  height: 1002px;
+  margin-top: -1560px;
+  /* UI Properties */
+  background: #6C4551 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+/* Part2 */
+
+.bgimg3 {
+  top: 768px;
+  left: 0px;
+  width: 100%;
+  height: 768px;
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.bgimg4 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 768px;
+  background: transparent url('./Images/Mask\ Group\ 7.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.img1 {
+  top: 953px;
+  left: 81px;
+  width: 555px;
+  height: 414px;
+
+  opacity: 1;
+}
+
+.text2 {
+  top: 965px;
+  left: 1025px;
+  height: 67px;
+  /* UI Properties */
+  text-align: right;
+  font: normal normal bold 34px/18px SST Arabic;
+  letter-spacing: 0px;
+  color: #6C4551;
+  opacity: 1;
+  font-family: SST;
+}
+
+/* Part 3 */
+
+.bgimg5 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 508px;
+  background: transparent url('./Images/Rectangle\ 5351.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.bgimg6 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 508px;
+  background: transparent url('./Images/Path\ 248.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+
+}
+
+.wbox {
+  top: 1741px;
+  left: 904px;
+  width: 323px;
+  height: 202px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.wimg1 {
+  top: 1795px;
+  left: 232px;
+  width: 137px;
+  height: 104px;
+  background: transparent url('./Images/Image\ 15.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.wimg2 {
+  top: 1795px;
+  left: 232px;
+  width: 217px;
+  height: 114px;
+  background: transparent url('./Images/Image\ 14.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.wimg3 {
+  top: 1795px;
+  left: 232px;
+  width: 87px;
+  height: 145px;
+  background: transparent url('./Images/Image\ 13.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+/* part 4 */
+
+.bgimg7 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 802px !important;
+  background: transparent url('./Images/Rectangle\ 5893.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.bgimg8 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 802px;
+  background: transparent url('./Images/mask7.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.bgimg9 {
+
+  /* margin-left: 1113px; */
+  width: 216px;
+  height: 207px;
+
+  opacity: 1;
+  background: transparent url('./Images/Light\ bulb-bro.png') 0% 0% no-repeat padding-box;
+
+}
+
+.wfont {
+  color: #6C4551;
+  font: normal normal bold 34px/18px SST Arabic;
+  margin-top: 100px;
+  font-family: SST;
+}
+
+.wp {
+  text-align: center !important;
+  margin-left: 150px;
+  margin-top: 40px;
+  font-family: SST;
+}
+
+.fnt {
+  font-family: SST;
+}
+
+/* Part5 */
+
+.bgimg10 {
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 1500px;
+  background: transparent url('./Images/Mask\ Group\ 9.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+
+}
+
+.wtext2 {
+  text-align: center;
+  font: normal normal bold 34px/18px SST Arabic;
+  letter-spacing: 0px;
+  color: #6C4551;
+  opacity: 1;
+  font-family: SST;
+}
+
+.wtext3 {
+
+  text-align: center !important;
+
+  letter-spacing: 0px;
+  color: #332D2D;
+  opacity: 1;
+  font-family: SST;
+}
+
+.b1 {
+  width: 309px;
+  height: 71px;
+  background: #EBEBEB 0% 0% no-repeat padding-box;
+  border-radius: 47px;
+  opacity: 1;
+  border: 0px;
+  font-family: SST;
+  color: #7E5462;
+
+
+
+}
+
+.b2 {
+  width: 197px;
+  height: 71px;
+  background: #7E5462 0% 0% no-repeat padding-box;
+  border-radius: 47px;
+  opacity: 1;
+  border: 0px;
+  margin-left: -100px;
+  font-family: SST;
+  color: #FFFFFF;
+}
+
+.card {
+  border: 0px solid #fff !important;
+  border-radius: 6px;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.card_img {
+  width: 259px;
+  height: 259px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: -60px auto 0;
+}
+
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_info {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  color: black;
+}
+
+.title {
+  font: normal normal bold 24px/18px SST Arabic;
+  letter-spacing: 0px;
+  color: #6C4551;
+  opacity: 1;
+  font-family: SST;
+  margin-top: 30px;
+}
+
+.chlim {
+  width: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 300px;
+
+  text-overflow: ellipsis;
+}
+
+.profile {
+  margin-top: 150px !important;
+}
+
+.mar1 {
+  margin-top: 200px;
+}
+
+.bgimg11 {
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 241px;
+  background: transparent url('./Images/Rectangle\ 5882.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+
+}
+
+.bgimg12 {
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+  height: 241px;
+  background: transparent url('./Images/Path\ 37.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: center !important;
+  background-size: cover !important;
+
+}
+
+/* Footer  */
+.msg {
+  width: 76px;
+  height: 76px;
+  background: transparent url('./Images/Group\ 36127.png') 0% 0% no-repeat padding-box;
+
+}
+
+.lgo {
+  width: 137px;
+  height: 118px;
+  /* UI Properties */
+  background: transparent url('./Images/Group\ 36126.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.mar2 {
+  margin-left: 200px;
+}
+
+.circle {
+  height: 350px;
+  width: 350px;
+  border: 80px solid #f7c180;
+  border-radius: 50%;
+  left: -200px;
+  bottom: 1px;
 }
