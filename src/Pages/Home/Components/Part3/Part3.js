@@ -10,7 +10,7 @@ const Part3 = () => {
                 <div className='bgimg6 d-flex align-items-center'>
                     <Container className='conatainer'>
 
-                        <Row className='ms-5'>
+                        <Row >
                             <Col sm >
                                 <div className='wbox  d-flex align-items-center justify-content-center'>
                                     <div className='wimg1 '>

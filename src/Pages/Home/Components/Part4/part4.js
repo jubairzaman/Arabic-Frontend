@@ -3,11 +3,11 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Part4 = () => {
     return (
-        <div>
+        <div className='bh'  >
 
-            <section className='bgimg7'>
+            <section className='bgimg7 '>
                 <div className='bgimg8 d-flex align-items-center'>
-                    <Container>
+                    <Container className=''>
                         <Row className=''>
                             <Col sm={10}>
 
