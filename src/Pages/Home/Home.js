@@ -4,6 +4,7 @@ import Part2 from './Components/Part2/Part2';
 import Part3 from './Components/Part3/Part3';
 import Part4 from './Components/Part4/part4';
 import Part5 from './Components/Part5/Part5';
+import Part6 from './Components/Part6/Part6';
 import TopBanner from './Components/TopBanner/TopBanner';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Part3></Part3>
             <Part4></Part4>
             <Part5></Part5>
+            <Part6></Part6>
             <Fotter></Fotter>
 
         </div>

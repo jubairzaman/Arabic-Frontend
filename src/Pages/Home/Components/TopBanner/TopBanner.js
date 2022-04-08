@@ -10,6 +10,11 @@ const TopBanner = () => {
             <div className='updiv position-absolute top-0 start-0 w-100'>
 
             </div>
+            <div className='mar2 position-absolute  start-50 translate-middle-x'>
+                <div className='eclips' >
+
+                </div>
+            </div>
             <section className='bgimg '>
                 <div className='bgimg2'>
 
@@ -27,11 +32,7 @@ const TopBanner = () => {
 
 
                 </div>
-                <div className='mar2'>
-                    <div className='eclips' >
 
-                    </div>
-                </div>
 
 
 

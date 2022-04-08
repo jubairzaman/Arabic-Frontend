@@ -13,7 +13,7 @@
 
   height: 26px;
   background: #FDC180 0% 0% no-repeat padding-box;
-  
+
 
   z-index: 1;
 
@@ -25,7 +25,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 100% !important;
+  max-width: 100% !important;
   height: 768px;
   background: transparent url('./Images/Rectangle\ 5347.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -36,7 +36,7 @@
 .bgimg2 {
   top: 0px;
   left: 0px;
-  width: 100% px;
+  max-width: 100% !important;
   height: 762px;
   background: transparent url('./Images/Path\ 9.svg') 0% 0% no-repeat padding-box;
   background-position: center;
@@ -72,7 +72,7 @@
 
 .button2 {
   top: 622px;
-  margin-left: -1573px;
+  margin-left: -1500px;
   width: 379px;
   height: 75px;
   background: #F7C180 0% 0% no-repeat padding-box;
@@ -81,19 +81,14 @@
   font-family: SST;
 }
 
-.eclips {
 
 
-  border-radius: 100%;
-  width: 1002px;
-  height: 1002px;
-  margin-top: -1560px;
-  margin-left: auto;
-  margin-right: auto;
-  /* UI Properties */
+.mar2 {
+  width: 80%;
+  padding-bottom: 80%;
+  top: -115% !important;
   background: #6C4551 0% 0% no-repeat padding-box;
-  opacity: 1;
-
+  border-radius: 100%;
 }
 
 /* Part2 */
@@ -286,6 +281,8 @@
 
 }
 
+.bgimg001 {}
+
 .wtext2 {
   text-align: center;
   font: normal normal bold 34px/18px SST Arabic;
@@ -387,7 +384,8 @@ a:hover {
 .profile {
   margin-top: 150px !important;
 }
-.ms5{
+
+.ms5 {
   margin-right: 200px !important;
 }
 
@@ -447,6 +445,7 @@ a:hover {
   left: -200px;
   bottom: 1px;
 }
+
 .chlim2 {
   width: 50ch;
   overflow: hidden;
@@ -456,24 +455,86 @@ a:hover {
   text-overflow: ellipsis;
 }
 
+.dn1 {
+  display: none;
+}
 
-@media screen and (max-device-width: 480px)  {
-  .ms5{
+.dn {
+  display: block;
+}
+
+
+@media screen and (max-device-width: 480px) {
+  .button2 {
+    top: 622px;
+    margin-left: -600px;
+    width: 379px;
+    height: 60px;
+    background: #F7C180 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    opacity: 1;
+    font-family: SST;
+  }
+
+  .mar2 {
+    width: 80%;
+    padding-bottom: 80%;
+    top: -150px !important;
+    background: #6C4551 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+  }
+
+
+  .dn {
+    display: none;
+  }
+
+  .dn1 {
+    display: block;
+  }
+
+  .msg {
+    display: none;
+  }
+
+  .lgo {
+    display: none;
+  }
+
+  .bgimg10 {
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100% !important;
+    height: 600px;
+    background: transparent url('./Images/Mask\ Group\ 9.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-position: center !important;
+    background-size: cover !important;
+
+  }
+
+
+  .ms5 {
     margin-right: auto !important;
     margin-left: auto !important;
   }
+
   .eclips {
 
 
     border-radius: 100%;
     width: 350px;
     height: 350px;
+    max-width: 100%;
     margin-top: -1000px;
     /* UI Properties */
     background: #6C4551 0% 0% no-repeat padding-box;
     opacity: 1;
-  
+
   }
+
   .wbox {
     top: 1741px;
     left: 904px;
@@ -486,7 +547,7 @@ a:hover {
     border-radius: 35px;
     opacity: 1;
   }
-  
+
   .wimg1 {
     top: 1795px;
     left: 232px;
@@ -494,9 +555,9 @@ a:hover {
     height: 104px;
     background: transparent url('./Images/Image\ 15.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-  
+
   }
-  
+
   .wimg2 {
     top: 1795px;
     left: 232px;
@@ -504,132 +565,325 @@ a:hover {
     height: 114px;
     background: transparent url('./Images/Image\ 14.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-  
+
   }
-  
+
   .wimg3 {
     top: 1795px;
     left: 232px;
     width: 87px;
     height: 145px;
-    background: transparent url('./Images/Image\ 13.png') 0% 0% no-repeat ;
+    background: transparent url('./Images/Image\ 13.png') 0% 0% no-repeat;
     opacity: 1;
-  
+
   }
+
   .circle {
     display: none;
   }
-  .bgimg9{
+
+  .bgimg9 {
     display: none;
   }
+
   .wp {
-   
+
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
   .wfont {
     color: #6C4551;
-   
+
     margin-top: 10px;
     font-family: SST;
   }
 
 
- 
-  
-  
-  }
-
-  
 
 
-  .mar1{ 
-    display: flex;
-    justify-content: center;
- 
 
-  }
-  .butn{
-    position: relative;
-    height: 56px;
-  }
-  .butn input{
-    position: relative;
-    width: 250px;
-    height: 56px;
-    border-radius: 45px;
-    outline: none;
- 
-    appearance: none;
-    font-family: SST;
-    font-weight: bold;
-    
-    
-  }
-  .butn input::before,
-  .butn input::after{
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%);
-    color: #111;
+}
 
+@media screen and (min-device-width: 481px) and (max-device-width : 850px) {
+  .ms5 {
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
-  .butn input::before{
-    content: 'المتطوعين';
-    left: 60px;
-    top: 15px;
-    
-  }
-  .butn input::after{
-    content: 'الفريق';
-    right: 20px;
-    top: 15px;
-    
-    
-   
-  }
-  .butn label{
-    z-index: 1;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    border-radius: 45px;
-  }
-  .butn.butn-1 input:checked{
-    background: #7E5462;
-  }
-  .butn.butn-1 input:checked::before{
-    color: #111;
-    transition: color 0.5s 0.2s;
-    margin-left: 7px;
-  }
-  
-  .butn.butn-1 input:checked::after{
-    color: #FFFFFF;
-    transition: color 0.5s ;
-  }
-  .butn.butn-1 input:checked + label{
+
+  .bgimg3 {
+    top: 768px;
     left: 0px;
-    right: 100px;
-    background: #EBEBEB;
-    transition: left 0.5s , right 0.4s 0.2s;
+
+    height: 768px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+
   }
-  .butn.butn-1 input:not(:checked){
-    background: #EBEBEB;
-    transition: background 0.5s -0.1s ;
+
+  .bgimg4 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    height: 768px;
+    background: transparent url('./Images/Mask\ Group\ 7.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-position: center !important;
+    background-size: cover !important;
   }
-  .butn.butn-1 input:not(:checked)::before{
+
+
+  .button2 {
+    top: 622px;
+    margin-left: -1050px;
+    width: 379px;
+    height: 60px;
+    background: #F7C180 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    opacity: 1;
+    font-family: SST;
+  }
+
+
+  .mar2 {
+    width: 80%;
+    padding-bottom: 80%;
+    top: -500px !important;
+    background: #6C4551 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+  }
+
+
+  .dn {
+    display: none;
+  }
+
+  .dn1 {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .msg {
+    display: none;
+  }
+
+  .lgo {
+    display: none;
+  }
+
+  .bgimg10 {
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100% !important;
+    height: 600px;
+    background: transparent url('./Images/Mask\ Group\ 9.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-position: center !important;
+    background-size: cover !important;
+
+  }
+
+
+  .ms5 {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .eclips {
+
+
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    margin-top: -1000px;
+    /* UI Properties */
+    background: #6C4551 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+  }
+
+  .wbox {
+    top: 1741px;
+    left: 904px;
+    width: 300px;
+    height: 140px;
+    margin: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    opacity: 1;
+  }
+
+  .wimg1 {
+    top: 1795px;
+    left: 232px;
+    width: 137px;
+    height: 104px;
+    background: transparent url('./Images/Image\ 15.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+  }
+
+  .wimg2 {
+    top: 1795px;
+    left: 232px;
+    width: 217px;
+    height: 114px;
+    background: transparent url('./Images/Image\ 14.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+  }
+
+  .wimg3 {
+    top: 1795px;
+    left: 232px;
+    width: 87px;
+    height: 145px;
+    background: transparent url('./Images/Image\ 13.png') 0% 0% no-repeat;
+    opacity: 1;
+
+  }
+
+  .circle {
+    /* display: none; */
+    top: -250px;
+
+  }
+
+  .bgimg9 {
+    display: none;
+  }
+
+  .wp {
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .wfont {
+    color: #6C4551;
+
+    margin-top: 10px;
+    font-family: SST;
+  }
+
+
+
+
+
+}
+
+
+
+
+.mar1 {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.butn {
+  position: relative;
+  height: 56px;
+}
+
+.butn input {
+  position: relative;
+  width: 250px;
+  height: 56px;
+  border-radius: 45px;
+  outline: none;
+  appearance: none;
+  font-family: SST;
+  font-weight: bold;
+
+
+}
+
+.butn input::before,
+.butn input::after {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  color: #111;
+
+}
+
+.butn input::before {
+  content: 'المتطوعين';
+  left: 60px;
+  top: 15px;
+
+}
+
+.butn input::after {
+  content: 'الفريق';
+  right: 20px;
+  top: 15px;
+
+
+
+}
+
+.butn label {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 45px;
+}
+
+.butn.butn-1 input:checked {
+  background: #7E5462;
+}
+
+.butn.butn-1 input:checked::before {
+  color: #111;
+  transition: color 0.5s 0.2s;
+  margin-left: 7px;
+}
+
+.butn.butn-1 input:checked::after {
+  color: #FFFFFF;
+  transition: color 0.5s;
+}
+
+.butn.butn-1 input:checked+label {
+  left: 0px;
+  right: 100px;
+  background: #EBEBEB;
+  transition: left 0.5s, right 0.4s 0.2s;
+}
+
+.butn.butn-1 input:not(:checked) {
+  background: #EBEBEB;
+  transition: background 0.5s -0.1s;
+}
+
+.butn.butn-1 input:not(:checked)::before {
   color: #111;
   transition: color 0.5s;
-  }
-  .butn.butn-1 input:not(:checked)::after{
+}
+
+.butn.butn-1 input:not(:checked)::after {
   color: #FFFFFF;
   transition: color 0.5s 0.2s;
-  }
-  .butn.butn-1 input:not(:checked) + label{
-    left: 100px;
-    right: 0px;
-    background: #7E5462;
-    transition: left 0.4s 0.2s ,right 0.5s, background 0.3s -0.1s;
-  }
+}
+
+.butn.butn-1 input:not(:checked)+label {
+  left: 100px;
+  right: 0px;
+  background: #7E5462;
+  transition: left 0.4s 0.2s, right 0.5s, background 0.3s -0.1s;
+}
